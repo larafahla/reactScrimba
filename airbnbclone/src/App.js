@@ -1,17 +1,15 @@
-
-
-
 import React from "react"
 import Navbar from "./components/Navbar"
-import Main from "./components/Main"
+import Hero from "./components/Hero"
+import Card from "./components/Card"
 import './App.css'
 
 function App() {
     return (
-        
         <div className="Container">
             <Navbar />
-            <Main />
+            <Hero />
+            <Card />
         </div>
     )
 }
